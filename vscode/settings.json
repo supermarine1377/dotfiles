@@ -1,0 +1,48 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.tabSize": 2,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "editor.detectIndentation": false,
+  "workbench.tree.indent": 4,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "redhat.telemetry.enabled": true,
+  "leetcode.workspaceFolder": "/Users/supermarine/.leetcode",
+  "leetcode.hint.commandShortcut": false,
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.defaultLanguage": "golang",
+  "git.autofetch": true,
+  "leetcode.showDescription": "In File Comment",
+  "git.confirmSync": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "workbench.editorAssociations": {
+    "*.zip": "default"
+  },
+  "yaml.schemas": {
+    "kubernetes": ["*.yml", "*.yaml"]
+  },
+  "terminal.integrated.ignoreBracketedPasteMode": true,
+  "terminal.external.osxExec": "Warp.app",
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path-mac": "/Users/supermarine/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+    "vscode-kubernetes.minikube-path-mac": "/Users/supermarine/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+  }
+}

@@ -44,10 +44,17 @@ update_vscode_configurations() {
     echo -e "$(colorize "$GREEN" 'Updated vscode configurations successfully')"
 }
 
+update_asdf_dependencies() {
+  echo -e "$(colorize "$GREEN" 'Updating asdf dependencies')"
+  asdf plugin list > asdf/.asdf
+  echo -e "$(colorize "$GREEN" 'Updated asdf dependencies successfully')"
+}
+
 main() {
     update_brew_dependencies
     copy_zsh_configurations
     update_vscode_configurations
+    update_asdf_dependencies
 
     echo -e "$(colorize "$GREEN" 'Updated all dependencies successfully')"
 }

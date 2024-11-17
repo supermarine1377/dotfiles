@@ -31,3 +31,9 @@ mcd() {
 	mkdir -p "$1"
 	cd "$1"
 } 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/supermarine/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/supermarine/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/supermarine/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/supermarine/Downloads/google-cloud-sdk/completion.zsh.inc'; fi

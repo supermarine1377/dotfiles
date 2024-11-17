@@ -44,5 +44,16 @@
   "vs-kubernetes": {
     "vscode-kubernetes.helm-path-mac": "/Users/supermarine/.vs-kubernetes/tools/helm/darwin-arm64/helm",
     "vscode-kubernetes.minikube-path-mac": "/Users/supermarine/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
-  }
+  },
+  "security.promptForLocalFileProtocolHandling": false,
+  "go.toolsManagement.autoUpdate": true,
+  "files.associations": {
+    "*.sql": "jinja-sql",
+    "*.yml": "jinja-yaml"
+  },
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "git.openRepositoryInParentFolders": "always",
+  "editor.tabCompletion": "on",
+  "githubPullRequests.pullBranch": "never",
+  "diffEditor.ignoreTrimWhitespace": false
 }

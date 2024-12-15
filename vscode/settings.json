@@ -55,5 +55,6 @@
   "git.openRepositoryInParentFolders": "always",
   "editor.tabCompletion": "on",
   "githubPullRequests.pullBranch": "never",
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "go.coverOnSingleTest": true
 }

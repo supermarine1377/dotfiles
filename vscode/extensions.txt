@@ -10,6 +10,8 @@ ecmel.vscode-html-css
 esbenp.prettier-vscode
 foxundermoon.shell-format
 geeklearningio.graphviz-markdown-preview
+github.copilot
+github.copilot-chat
 github.vscode-pull-request-github
 golang.go
 innoverio.vscode-dbt-power-user

@@ -37,3 +37,5 @@ if [ -f '/Users/supermarine/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/supermarine/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/supermarine/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh

@@ -56,5 +56,7 @@
   "editor.tabCompletion": "on",
   "githubPullRequests.pullBranch": "never",
   "diffEditor.ignoreTrimWhitespace": false,
-  "go.coverOnSingleTest": true
+  "go.coverOnSingleTest": true,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "hediet.vscode-drawio.resizeImages": null
 }

@@ -39,3 +39,6 @@ if [ -f '/Users/supermarine/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '
 if [ -f '/Users/supermarine/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/supermarine/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+eval "$(direnv hook zsh)"
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"

@@ -58,5 +58,11 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "go.coverOnSingleTest": true,
   "editor.inlineSuggest.suppressSuggestions": true,
-  "hediet.vscode-drawio.resizeImages": null
+  "hediet.vscode-drawio.resizeImages": null,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cody.suggestions.mode": "auto-edit",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1"
 }

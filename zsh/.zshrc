@@ -19,9 +19,6 @@ eval "$(rbenv init -)"
   
 . /opt/homebrew/opt/asdf/libexec/asdf.sh  
   
-alias g='git'  
-alias pip='pip3' 
-alias k='kubectl'
 
 mcd() {
 	if [[ $# -eq 0 ]]; then
@@ -42,3 +39,6 @@ if [ -f '/Users/supermarine/Downloads/google-cloud-sdk/completion.zsh.inc' ]; th
 
 eval "$(direnv hook zsh)"
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+
+export EDITOR="zed --wait"
+export VISUAL="zed --wait"

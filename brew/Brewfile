@@ -1,84 +1,146 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "sqldef/sqldef"
+# Run your GitHub Actions locally
 brew "act"
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
+# Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
-brew "pycparser"
-brew "cffi"
-brew "direnv"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# GNU internationalization (i18n) and localization (l10n) library
 brew "gettext"
-brew "gh"
+# Perl compatible regular expressions library with a new API
 brew "pcre2"
-brew "git"
-brew "gobuster"
-brew "helm"
-brew "jq"
-brew "kind"
-brew "lazygit"
-brew "libfido2"
-brew "mongocli"
-brew "mongosh"
+# C parser in Python
+brew "pycparser"
+# C Foreign Function Interface for Python
+brew "cffi"
+# Load/unload environment variables based on $PWD
+brew "direnv"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Zstandard is a real-time compression algorithm
 brew "zstd"
+# Play, record, convert, and stream many audio and video codecs
+brew "ffmpeg-full", link: true
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Directory/file & DNS busting tool written in Go
+brew "gobuster"
+# Kubernetes package manager
+brew "helm"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick-full", link: true
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Run local Kubernetes cluster in Docker
+brew "kind"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Provides library functionality for FIDO U2F & FIDO 2.0, including USB
+brew "libfido2"
+# MongoDB CLI enables you to manage your MongoDB in the Cloud
+brew "mongocli"
+# MongoDB Shell to connect, configure, query, and work with your MongoDB database
+brew "mongosh"
+# Open source relational database management system
 brew "mysql"
+# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Port scanning utility for large networks
 brew "nmap"
+# Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
+# SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension
 brew "openvpn"
+# Python package management tool
 brew "poetry"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
+# Object-relational database system
 brew "postgresql@15"
+# Python version management
 brew "pyenv"
+# Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
+# Ruby version manager
 brew "rbenv"
+# SVG rendering tool and library
+brew "resvg"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# 7-Zip is a file archiver with a high compression ratio
+brew "sevenzip"
+# Terraform version manager inspired by rbenv
 brew "tfenv"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Executes a program periodically, showing output fullscreen
 brew "watch"
+# Internet file retriever
 brew "wget"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
+# Process YAML, JSON, XML, CSV and properties documents from the CLI
 brew "yq"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Web security testing toolkit
 cask "burp-suite"
+# Anthropic's official Claude AI desktop app
 cask "claude"
+# Clipboard extension app
 cask "clipy"
+cask "font-symbols-only-nerd-font"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Desktop client for GitHub repositories
 cask "github"
-cask "google-cloud-sdk"
+# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Team communication and collaboration software
 cask "slack"
+# Multimedia player
 cask "vlc"
-cask "warp"
-cask "wireshark"
+# Network protocol analyzer
+cask "wireshark-app"
 vscode "766b.go-outliner"
 vscode "altimateai.vscode-altimate-mcp-server"
 vscode "bierner.markdown-mermaid"
 vscode "bpruitt-goddard.mermaid-markdown-syntax-highlighting"
+vscode "charliermarsh.ruff"
 vscode "cschleiden.vscode-github-actions"
 vscode "davidanson.vscode-markdownlint"
 vscode "docker.docker"
-vscode "donjayamanne.python-extension-pack"
-vscode "eamodio.gitlens"
 vscode "ecmel.vscode-html-css"
 vscode "esbenp.prettier-vscode"
 vscode "foxundermoon.shell-format"
 vscode "geeklearningio.graphviz-markdown-preview"
-vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "golang.go"
 vscode "hediet.vscode-drawio"
-vscode "innoverio.vscode-dbt-power-user"
 vscode "janisdd.vscode-edit-csv"
 vscode "jpoissonnier.vscode-styled-components"
-vscode "kevinrose.vsc-python-indent"
 vscode "leetcode.vscode-leetcode"
 vscode "mechatroner.rainbow-csv"
 vscode "mquandalle.graphql"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
-vscode "ms-python.debugpy"
-vscode "ms-python.isort"
-vscode "ms-python.mypy-type-checker"
 vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
 vscode "ms-toolsai.jupyter"
 vscode "ms-toolsai.jupyter-keymap"
 vscode "ms-toolsai.jupyter-renderers"
@@ -88,14 +150,21 @@ vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode.makefile-tools"
 vscode "necatiarslan.airflow-vscode-extension"
 vscode "premparihar.gotestexplorer"
-vscode "rangav.vscode-thunder-client"
 vscode "redhat.vscode-yaml"
 vscode "samuelcolvin.jinjahtml"
+vscode "saoudrizwan.claude-dev"
 vscode "shd101wyy.markdown-preview-enhanced"
 vscode "sourcegraph.cody-ai"
 vscode "timonwong.shellcheck"
 vscode "tomoki1207.pdf"
-vscode "visualstudioexptteam.intellicode-api-usage-examples"
-vscode "visualstudioexptteam.vscodeintellicode"
 vscode "yzane.markdown-pdf"
 vscode "yzhang.markdown-all-in-one"
+uv "twitter-cli"
+krew "ctx"
+krew "krew"
+krew "ns"
+krew "sniff"
+npm "@google/gemini-cli"
+npm "@modelcontextprotocol/server-filesystem"
+npm "corepack"
+npm "netlify-cli"
